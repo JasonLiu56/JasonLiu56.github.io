@@ -1,188 +1,144 @@
-
+<!DOCTYPE html>
 <html>
   <head>
-    
-<meta charset="utf-8" >
+    <meta charset="utf-8" >
 
 <title>Fazhion</title>
-<meta name="description" content="Do Some Women&#39;s Fashion Thing!">
 
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
 
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-<link rel="shortcut icon" href="https://www.fazhion.xyz/favicon.ico?v=1636769280641">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+<link rel="shortcut icon" href="https://www.fazhion.xyz/favicon.ico?v=1636770441916">
 <link rel="stylesheet" href="https://www.fazhion.xyz/styles/main.css">
 
 
 
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
-<script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
 
 
 
+    <meta name="description" content="Do Some Women&#39;s Fashion Thing!">
+    
   </head>
   <body>
     <div id="app" class="main">
-      <div class="site-header-container">
-  <div class="site-header">
-    <div class="left">
-      <a href="https://www.fazhion.xyz">
-        <img class="avatar" src="https://www.fazhion.xyz/images/avatar.png?v=1636769280641" alt="" width="32px" height="32px">
-      </a>
-      <a href="https://www.fazhion.xyz">
+
+      <div class="sidebar" :class="{ 'full-height': menuVisible }">
+  <div class="top-container" data-aos="fade-right">
+    <div class="top-header-container">
+      <a class="site-title-container" href="https://www.fazhion.xyz">
+        <img src="https://www.fazhion.xyz/images/avatar.png?v=1636770441916" class="site-logo">
         <h1 class="site-title">Fazhion</h1>
       </a>
+      <div class="menu-btn" @click="menuVisible = !menuVisible">
+        <div class="line"></div>
+      </div>
     </div>
-    <div class="right">
-      <transition name="fade">
-        <i class="icon" :class="{ 'icon-close-outline': menuVisible, 'icon-menu-outline': !menuVisible }" @click="menuVisible = !menuVisible"></i>
-      </transition>
-    </div>
-  </div>
-</div>
-
-<transition name="fade">
-  <div class="menu-container" style="display: none;" v-show="menuVisible">
-    <div class="menu-list">
+    <div>
       
         
-          <a href="/" class="menu purple-link">
+          <a href="/" class="site-nav">
             index
           </a>
         
       
         
-          <a href="/archives" class="menu purple-link">
+          <a href="/archives" class="site-nav">
             archives
           </a>
         
       
         
-          <a href="/tags" class="menu purple-link">
+          <a href="/tags" class="site-nav">
             tags
           </a>
         
       
     </div>
   </div>
-</transition>
-
-
-      <div class="content-container">
+  <div class="bottom-container" data-aos="flip-up" data-aos-offset="0">
+    <div class="social-container">
+      
         
+      
         
-<section class="post-item">
-    <div class="content">
-      <a href="https://www.fazhion.xyz/post/the-top-5-little-fresh-nail-art-in-autumn/">
-        <h2 class="post-title">The Top 5 Little Fresh Nail Art In Autumn</h2>
-      </a>
-      <div class="post-abstract">
-        <p>​Hands are our second face of women, so many of our friends are very fond of doing nail art,  especially now in autumn,  do some beautiful,  white-looking style can make people feel good,  so what is the autumn little fresh nail art in the end?  What is the hottest?  Today,  I will bring you a detail introduction.</p>
-<h2 id="1-shiny-gold-nail-art">1. Shiny Gold Nail Art</h2>
-<p>​Although it has to be applied to real life,  these gorgeous and advanced nail styles are something that you can not help but try. Many peeps select elongated styles to bring out their high-end feel,  but for the convenience of life,  these shorts are also perfect. Use your favorite color as a base,  then apply shiny gold on top,  these somewhat monotonous appearance,  become instantly luxurious. For instance,  this pink nail art with the addition of shining gold looks very special.<br>
-<img src="https://www.fazhion.xyz/post-images/1636720921249.png" alt="" loading="lazy"></p>
-<h2 id="2-white-small-flower-nail-art">2. White Small Flower Nail Art</h2>
-<p>​These solid color mirror nails are still loved by many young in real life. The so-called plain mirror color is a nail art that is chosen with a single color,   with no additional color added. Combined with the smooth appearance,  it looks shiny when exposed to light or sunlight.  Naturally there will be people who don't like this slightly monotonous nail art,  so adding a few small touches can be an effective solution to this problem.  This fishing manicure with the small white flower added on top is very soft and soft.<br>
-<img src="https://www.fazhion.xyz/post-images/1636720933203.jpg" alt="" loading="lazy"></p>
-<h2 id="3-white-edge-nail-art">3. White Edge Nail Art</h2>
-<p>​If you don't want to add small white flowers,  you think the accents are a bit brusque. There are many other options at this point, after all, nail art can be whatever you want it to be,  and if you are handy enough,  you can totally design it for yourself.  The nail is painted with a colour and a white border is added at the top.  This style of nail art is quite popular amongst girls nowadays.  Not only does it add a vivid colour,  but it also looks very neat.<br>
-<img src="https://www.fazhion.xyz/post-images/1636720939000.jpg" alt="" loading="lazy"></p>
-<p>​The nail art above,  in its entirety,  is pink and then a white border is painted on top. The combination of soft pink and vivid white,  is unique and distinctive. This one has a blue border,  which is as pink overall,  but the color is lighter than the one above.  This nail art looks very cool and enjoyable after adding a blue border.  This way,  you can see that the colour of the ridge can be chosen at will.<br>
-<img src="https://www.fazhion.xyz/post-images/1636720944290.jpg" alt="" loading="lazy"></p>
-<h2 id="4-color-blocking-nail-art">4. Color Blocking Nail Art</h2>
-<p>​Like the side nail art,  which is also made up of two colors,  the color blocking nail art is worth a try.  This nail art,  composed of blue and white,  is perfect for light autumn days and brings a touch of pleasure to the heart. This nail art is slightly different,  since it is only on the ring finger.  If you think it's a bit monotonous,  you can freely choose the color that you want to put together,  and it's not limited to one color.  In addition,  you can choose a color combination on each nail,  but this will look a bit tedious.<br>
-<img src="https://www.fazhion.xyz/post-images/1636720953456.jpg" alt="" loading="lazy"></p>
-
-      </div>
-      <div class="post-info">
-        <span><i class="icon icon-calendar-outline"></i> 2021-11-12</span>
+      
         
-          <span>
-            <i class="icon icon-pricetags-outline"></i>
-            
-              <a href="https://www.fazhion.xyz/tag/NH3DtV8MX/">
-                Nail Art
-                
-              </a>
-            
-          </span>
+      
         
-      </div>
+      
+        
+      
     </div>
-    
-      <a href="https://www.fazhion.xyz/post/the-top-5-little-fresh-nail-art-in-autumn/">
-        <div class="feature-container" style="background-image: url('https://www.fazhion.xyz/post-images/the-top-5-little-fresh-nail-art-in-autumn.png')">
-        </div>
-      </a>
-    
-  </section>
-
-<section class="post-item">
-    <div class="content">
-      <a href="https://www.fazhion.xyz/post/burgundy-nail-art-collection-for-autumn-2021/">
-        <h2 class="post-title">Burgundy Nail Art Collection For Autumn 2021</h2>
-      </a>
-      <div class="post-abstract">
-        
-      </div>
-      <div class="post-info">
-        <span><i class="icon icon-calendar-outline"></i> 2021-11-12</span>
-        
-          <span>
-            <i class="icon icon-pricetags-outline"></i>
-            
-              <a href="https://www.fazhion.xyz/tag/NH3DtV8MX/">
-                Nail Art
-                
-              </a>
-            
-          </span>
-        
-      </div>
+    <div class="site-description">
+      Do Some Women's Fashion Thing!
     </div>
-    
-      <a href="https://www.fazhion.xyz/post/burgundy-nail-art-collection-for-autumn-2021/">
-        <div class="feature-container" style="background-image: url('https://www.fazhion.xyz/post-images/burgundy-nail-art-collection-for-autumn-2021.jpg')">
-        </div>
-      </a>
-    
-  </section>
-
-
-<div class="pagination-container">
-  
-  
-</div>
-
-
-      </div>
-
-      <div class="site-footer">
-  <div class="slogan">Do Some Women's Fashion Thing!</div>
-  <div class="social-container">
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
+    <div class="site-footer">
+      Powered by <a href="https://www.fazhion.xyz/" target="_blank">
+Fazhion</a>
+    </div>
   </div>
-  Powered by <a href="https://www.fazhion.xyz/" target="_blank">
-Fazhion</a> | <a class="rss" href="https://www.fazhion.xyz/atom.xml" target="_blank">RSS</a>
 </div>
 
 
-    </div>
-    <script type="application/javascript">
+      <div class="main-container">
+        <div class="content-container" data-aos="fade-up">
+          
+            <article class="post-item">
+              <div class="left">
+                <a href="https://www.fazhion.xyz/post/the-top-5-little-fresh-nail-art-in-autumn/">
+                  <h2 class="post-title">The Top 5 Little Fresh Nail Art In Autumn</h2>
+                </a>
+                <div class="post-date">
+                  2021-11-12
+                </div>
+                <div class="post-abstract">
+                  
+                </div>
+              </div>
+              
+                <a class="right" href="https://www.fazhion.xyz/post/the-top-5-little-fresh-nail-art-in-autumn/">
+                  <div class="feature-container" style="background-image: url('https://www.fazhion.xyz/post-images/the-top-5-little-fresh-nail-art-in-autumn.png')">
+                  </div>
+                </a>
+              
+            </article>
+          
+            <article class="post-item">
+              <div class="left">
+                <a href="https://www.fazhion.xyz/post/burgundy-nail-art-collection-for-autumn-2021/">
+                  <h2 class="post-title">Burgundy Nail Art Collection For Autumn 2021</h2>
+                </a>
+                <div class="post-date">
+                  2021-11-12
+                </div>
+                <div class="post-abstract">
+                  
+                </div>
+              </div>
+              
+                <a class="right" href="https://www.fazhion.xyz/post/burgundy-nail-art-collection-for-autumn-2021/">
+                  <div class="feature-container" style="background-image: url('https://www.fazhion.xyz/post-images/burgundy-nail-art-collection-for-autumn-2021.jpg')">
+                  </div>
+                </a>
+              
+            </article>
+          
 
-hljs.initHighlightingOnLoad()
+          <div class="pagination-container">
+  
+  
+</div>
+
+        </div>
+      </div>
+    </div>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script type="application/javascript">
+
+AOS.init();
 
 var app = new Vue({
   el: '#app',
@@ -192,6 +148,8 @@ var app = new Vue({
 })
 
 </script>
+
+
 
 
 
